@@ -1,0 +1,13 @@
+﻿  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Скопировано файлов:         1.
+  Подпапка или файл C:\Users\fedotovdv\source\repos\template-sfml2.5.1-win-ping-pong3\x64\Debug Dynamic\resources уже существует.
+  C:\Users\fedotovdv\source\repos\template-sfml2.5.1-win-ping-pong3\resources\ball.wav
+  C:\Users\fedotovdv\source\repos\template-sfml2.5.1-win-ping-pong3\resources\sansation.ttf
+  Скопировано файлов:         2.
+  main.cpp
+c:\users\fedotovdv\source\repos\template-sfml2.5.1-win-ping-pong3\main.cpp(168): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  template-sfml2.5.1-win-ping-pong3.vcxproj -> C:\Users\fedotovdv\source\repos\template-sfml2.5.1-win-ping-pong3\x64\Debug Dynamic\template-sfml2.5.1-win-ping-pong3.exe
