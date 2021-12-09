@@ -367,10 +367,6 @@ copy /Y "$(SolutionDir)resources"  "$(TargetDir)resources\"</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="extlibs\bin\x64\openal32.dll" />
     <None Include="extlibs\bin\x64\sfml-audio-2.dll" />
     <None Include="extlibs\bin\x64\sfml-audio-d-2.dll" />
@@ -584,12 +580,10 @@ copy /Y "$(SolutionDir)resources"  "$(TargetDir)resources\"</Command>
     <ClInclude Include="extlibs\include\SFML\Window\Window.hpp" />
     <ClInclude Include="extlibs\include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="extlibs\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
-    <Media Include="resources\ball.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="resources\sansation.ttf" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
